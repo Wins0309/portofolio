@@ -1,0 +1,24 @@
+header#site-header {
+  @apply fixed top-0 left-0 right-0 py-4;
+
+  z-index: 1001;
+
+  background-color: #0b0c10;
+
+
+  .icon-menu {
+    svg {
+      path {
+        stroke: #66fcf1;
+      }
+    }
+
+    &:hover {
+      svg {
+        path {
+          stroke: white;
+        }
+      }
+    }
+  }
+}

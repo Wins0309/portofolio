@@ -1,0 +1,54 @@
+#side-header {
+  @apply h-full uppercase flex flex-col items-center fixed opacity-0;
+
+  background-color: #1f2833;
+  color: #66fcf1;
+  z-index: 1000;
+  animation: slideOutAnimation 0.5s ease;
+  transition-delay: 0.5s;
+  transition-property: opacity, z-index;
+  min-width: 100%;
+  max-width: 100%;
+  top: 0;
+
+
+  .close-button {
+    @apply flex w-full justify-end p-4;
+
+    button {
+      &:hover {
+        svg {
+          path {
+            @apply stroke-white;
+          }
+        }
+      }
+    }
+  }
+
+  ul {
+    @apply flex flex-col justify-center flex-grow;
+
+    li {
+      @apply mb-6 font-bold text-center;
+
+      font-size: 20px;
+
+      :hover {
+        @apply text-white;
+      }
+    }
+  }
+
+  &.active {
+    @apply opacity-100;
+
+    z-index: 1001;
+    animation: slideInFromLeftAnimation 0.5s ease;
+    transition-delay: 0s;
+  }
+
+  @screen lg {
+    min-width: 17.5%;
+  }
+}

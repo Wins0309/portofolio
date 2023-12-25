@@ -1,0 +1,26 @@
+.btn {
+  @apply p-4;
+
+  border-radius: 4px;
+
+  &-primary {
+    @apply bg-winston-primary text-white font-bold border-2 border-winston-primary;
+
+    &:hover,
+    &:focus,
+    &:active {
+      @apply bg-transparent border-winston-primary border-2 text-winston-primary;
+
+    }
+  }
+
+  &-outline-primary {
+    @apply bg-transparent border-winston-primary border-2 text-winston-primary;
+
+    &:hover,
+    &:focus,
+    &:active {
+      @apply bg-winston-primary text-black font-bold;
+    }
+  }
+}

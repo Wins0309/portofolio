@@ -1,0 +1,111 @@
+.c-introduction {
+  background-color: #0b0c10;
+
+  .container {
+    @apply flex flex-col w-full relative overflow-hidden;
+
+    z-index: 10;
+
+    @screen lg {
+      @apply flex-row gap-8;
+    }
+  }
+
+  .content-container {
+    @apply flex flex-col justify-center items-center mb-4 py-4;
+
+    @screen lg {
+      @apply items-start;
+    }
+
+    @screen lg {
+      @apply mb-0;
+
+      min-width: 50%;
+      max-width: 50%;
+    }
+
+    @screen xl {
+      padding-top: 160px;
+      padding-bottom: 160px;
+    }
+  }
+
+  .tagline {
+    @apply uppercase font-bold;
+
+    color: #66fcf1;
+  }
+
+  .description {
+    @apply text-white;
+  }
+
+  .image-container {
+    @apply flex-grow relative flex items-center w-full h-full justify-center mx-auto;
+
+    height: auto;
+
+    img {
+      @apply relative h-full w-full;
+
+      z-index: 10;
+    }
+
+    @screen md {
+      @apply items-end;
+
+      max-width: 50%;
+    }
+
+    @screen lg {
+      @apply max-w-full;
+    }
+  }
+
+  .background-text {
+    @apply absolute left-0 right-0 flex justify-center text-center;
+
+    z-index: 5;
+    top: 50%;
+    transform: translateY(-50%);
+
+    h1 {
+      @apply uppercase font-bold;
+
+      color: white;
+      z-index: 1;
+      font-size: 40px;
+
+      @screen lg {
+        font-size: 60px;
+      }
+
+      @screen xl {
+        font-size: 80px;
+      }
+    }
+
+    @screen xl {
+      transform: translateY(0);
+    }
+  }
+
+  .circle-container {
+    @apply absolute bottom-0 left-0 right-0 flex justify-center;
+
+    z-index: 1;
+    transform: translateY(25%);
+  }
+
+  #circle{
+    @apply relative;
+
+    height: 0;
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: #45a29e;
+    border-radius: 50%;
+    z-index: 1;
+  }
+}
