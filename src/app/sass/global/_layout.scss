@@ -1,6 +1,6 @@
 body {
   height: 100vh;
-  padding-top: 62px;
+  padding-top: 88px;
 }
 
 #app {
@@ -36,6 +36,16 @@ body {
 
     100% {
       left: -500px;
+    }
+  }
+
+  @keyframes slideInFromRightAnimation {
+    0% {
+      left: 500px;
+    }
+
+    100% {
+      left: 0;
     }
   }
 }

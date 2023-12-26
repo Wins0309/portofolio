@@ -1,0 +1,88 @@
+.c-work {
+  @apply bg-black py-16 lg:py-32 flex flex-col;
+
+  .card {
+    @apply flex flex-col-reverse;
+
+    @screen lg {
+      @apply flex-row px-32 gap-8;
+    }
+  }
+
+  .content-container {
+    @apply flex flex-col flex-grow text-white items-start justify-center;
+
+    p {
+      @apply mb-4;
+    }
+  }
+
+  .image-container {
+    @apply relative cursor-pointer mb-4;
+
+    img {
+      @apply w-full h-auto;
+
+      filter: brightness(0.5) saturate(0%);
+      transition: all 1s ease;
+      border-radius: 16px;
+      object-fit: cover;
+      aspect-ratio: 16 / 9;
+    }
+
+    &:hover {
+      img {
+        filter: none;
+      }
+    }
+
+    @screen md {
+      @apply my-auto;
+    }
+
+    @screen lg {
+      min-width: 50%;
+      max-width: 50%;
+    }
+  }
+
+  .swiper {
+    .prev-arrow,
+    .next-arrow {
+      @apply border border-white rounded-full p-4;
+
+      z-index: 10000;
+
+      svg {
+        path {
+          @apply stroke-white;
+        }
+      }
+
+      &:hover {
+        @apply bg-white;
+
+        svg {
+          path {
+            @apply stroke-black;
+          }
+        }
+      }
+
+      @screen lg {
+        @apply absolute;
+
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+
+    .prev-arrow {
+      @apply left-0;
+    }
+
+    .next-arrow {
+      @apply right-0;
+    }
+  }
+}

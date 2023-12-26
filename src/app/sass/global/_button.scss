@@ -1,10 +1,10 @@
 .btn {
-  @apply p-4;
+  @apply py-4 px-6;
 
   border-radius: 4px;
 
   &-primary {
-    @apply bg-winston-primary text-white font-bold border-2 border-winston-primary;
+    @apply bg-winston-primary text-black font-bold border-2 border-winston-primary;
 
     &:hover,
     &:focus,

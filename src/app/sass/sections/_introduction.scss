@@ -50,6 +50,12 @@
       @apply relative h-full w-full;
 
       z-index: 10;
+      animation : slideInFromRightAnimation 2s ease-in;
+    }
+
+    .image-wrapper {
+      transform: translateX(20%);
+      z-index: 100;
     }
 
     @screen md {

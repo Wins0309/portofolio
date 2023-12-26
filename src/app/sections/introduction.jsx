@@ -4,7 +4,7 @@ export default function Introduction() {
       <div className="container mx-auto">
         <div className="content-container">
           <p className="tagline mb-0">Full Stack Developer</p>
-          <h2 className="text-white uppercase font-bold">Hi I'm Winston</h2>
+          <h2 className="text-white uppercase font-bold mb-4">Hi, I'm Winston!</h2>
           <p className="description text-center lg:text-start mb-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis blandit purus ac dictum ullamcorper.
             Vestibulum libero lectus, suscipit et molestie non, ultricies ac arcu. In tellus tortor, placerat eget
@@ -12,7 +12,7 @@ export default function Introduction() {
             Aenean vel pharetra erat. Nullam in egestas tortor. Curabitur ante enim, efficitur a volutpat sed, fermentum
             eu neque.
           </p>
-          <button className="btn btn-outline-primary">Next Section</button>
+          <button className="btn btn-outline-primary">Learn More</button>
         </div>
         <div className="image-container">
           <div className="image-wrapper">
@@ -23,7 +23,6 @@ export default function Introduction() {
           </div>
           <div className="circle-container">
             <span id="circle">
-              <img src={'circle.svg'} alt="Circle" />
             </span>
           </div>
         </div>

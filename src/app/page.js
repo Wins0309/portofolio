@@ -1,7 +1,11 @@
-import SideHeader from "../app/components/side-header"
-import Introduction from "../app/sections/introduction"
-import SiteHeader from "../app/components/site-header"
+import SideHeader from "./components/side-header"
+import SiteHeader from "./components/site-header"
+import Introduction from "./sections/introduction"
+import Work from "./sections/work"
+import Clients from "./sections/clients"
 import React from "react"
+import 'swiper/css'
+import 'swiper/css/pagination'
 
 export default function Page() {
   return (
@@ -10,9 +14,8 @@ export default function Page() {
       <SideHeader/>
       <div className="content">
         <Introduction />
-        <div>
-          Helo
-        </div>
+        <Clients />
+        <Work />
       </div>
     </div>)
 }

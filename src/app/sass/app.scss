@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @import 'global/button';
 @import 'global/layout';
 @import 'global/font';
@@ -10,4 +11,6 @@
 @import 'components/side-header';
 @import 'components/site-header';
 
+@import 'sections/clients';
 @import 'sections/introduction';
+@import 'sections/work';
