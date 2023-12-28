@@ -1,12 +1,12 @@
 #side-header {
-  @apply h-full uppercase flex-col items-center fixed hidden opacity-0;
+  @apply h-full uppercase flex-col items-center fixed invisible opacity-0;
 
   background-color: #1f2833;
   color: #66fcf1;
   z-index: 1000;
   animation: slideOutAnimation 0.5s ease;
   transition-delay: 0.5s;
-  transition-property: opacity, display, z-index;
+  transition-property: opacity, visibility, z-index;
   min-width: 100%;
   max-width: 100%;
   top: 0;
@@ -41,7 +41,7 @@
   }
 
   &.active {
-    @apply flex opacity-100;
+    @apply flex opacity-100 visible;
 
     z-index: 1001;
     animation: slideInFromLeftAnimation 0.5s ease;

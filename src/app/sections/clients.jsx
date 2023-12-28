@@ -14,7 +14,7 @@ export default function Clients() {
             }}
             autoplay={{
               delay: 2500,
-              disableOnInteraction: false
+              pauseOnMouseEnter: true
             }}
             spaceBetween={50}
             slidesPerView={1}

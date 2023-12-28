@@ -1,8 +1,9 @@
 import SideHeader from "./components/side-header"
 import SiteHeader from "./components/site-header"
 import Introduction from "./sections/introduction"
-import Work from "./sections/work"
 import Clients from "./sections/clients"
+import Stack from "./sections/stack"
+import Work from "./sections/work"
 import React from "react"
 import 'swiper/css'
 import 'swiper/css/pagination'
@@ -16,6 +17,7 @@ export default function Page() {
         <Introduction />
         <Clients />
         <Work />
+        <Stack />
       </div>
     </div>)
 }

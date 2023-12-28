@@ -4,23 +4,35 @@
   border-radius: 4px;
 
   &-primary {
-    @apply bg-winston-primary text-black font-bold border-2 border-winston-primary;
+    @apply text-black font-bold border-2 border-winston-primary;
+    background: linear-gradient(to right, transparent 50%, #66fcf1 50%);
+    background-size: 200% 100%;
+    background-position: bottom right;
 
     &:hover,
     &:focus,
     &:active {
-      @apply bg-transparent border-winston-primary border-2 text-winston-primary;
+      @apply border-2 border-winston-primary text-winston-primary;
 
+      background-position: bottom left;
+      transition: all .7s ease-out;
     }
   }
 
   &-outline-primary {
-    @apply bg-transparent border-winston-primary border-2 text-winston-primary;
+    @apply border-winston-primary border-2 text-winston-primary font-bold;
+
+    background: linear-gradient(to right, #66fcf1 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: bottom right;
 
     &:hover,
     &:focus,
     &:active {
-      @apply bg-winston-primary text-black font-bold;
+      @apply border-2 border-winston-primary text-black;
+
+      background-position: bottom left;
+      transition: all .7s ease-out;
     }
   }
 }

@@ -1,0 +1,74 @@
+.c-stack {
+  @apply py-16;
+
+  .stack {
+    @apply grid md:grid-cols-2 opacity-0;
+
+    transition: all 3s ease;
+
+    &.active {
+      @apply opacity-100;
+
+      transition: all 3s ease;
+    }
+  }
+
+  .flip-card {
+    position: relative;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    cursor: pointer;
+
+    h4,
+    p {
+      @apply text-start;
+    }
+
+    &:hover {
+      .flip-card-inner {
+        transform: rotateY(180deg);
+        transition: all 1s ease;
+      }
+
+      .flip-card-back {
+        @apply visible;
+
+        transition: all 1s ease;
+      }
+    }
+  }
+
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+  }
+
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+  }
+
+  .flip-card-back {
+    @apply invisible;
+
+    color: black;
+    transform: rotateY(180deg);
+    transition: all 1.5s ease;
+  }
+
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    transition: all 1.5s ease;
+  }
+}

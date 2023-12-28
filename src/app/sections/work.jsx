@@ -78,6 +78,23 @@ export default function Work() {
               </div>
             </div>
           </SwiperSlide>
+          <SwiperSlide>
+            <div className="card">
+              <div className="content-container">
+                <h3 className="mb-4 text-winston-primary">UI / UX Experience</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis blandit purus ac dictum ullamcorper.
+                  Vestibulum libero lectus, suscipit et molestie non, ultricies ac arcu. In tellus tortor, placerat eget
+                  mattis id, volutpat id eros.
+                  Aenean vel pharetra erat. Nullam in egestas tortor. Curabitur ante enim, efficitur a volutpat sed, fermentum
+                  eu neque.
+                </p>
+              </div>
+              <div className="image-container">
+                <img src={'./uiux.jpg'} alt="Website Development" />
+              </div>
+            </div>
+          </SwiperSlide>
           <div className="flex gap-2 justify-center w-full">
             <button className="prev-arrow" onClick={handlePrev}>
               <IconChevronLeft></IconChevronLeft>
