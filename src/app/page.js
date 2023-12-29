@@ -15,9 +15,9 @@ export default function Page() {
       <SideHeader/>
       <div className="content">
         <Introduction />
+        <Stack />
         <Clients />
         <Work />
-        <Stack />
       </div>
     </div>)
 }

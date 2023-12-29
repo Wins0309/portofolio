@@ -19,7 +19,7 @@ export default function Work() {
   return (
     <div className="c-work">
       <div className="container mx-auto">
-        <h3 className="text-center text-white mb-16">My Day to Day</h3>
+        <h2 className="text-center text-winston-primary pb-8 md:pb-20">My Day to Day</h2>
         <Swiper
           spaceBetween={50}
           slidesPerView={1}

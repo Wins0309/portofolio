@@ -1,9 +1,7 @@
 header#site-header {
-  @apply fixed top-0 left-0 right-0 py-8;
+  @apply fixed top-0 left-0 right-0 py-8 bg-black;
 
   z-index: 1001;
-  background-color: #0b0c10;
-
 
   .container {
     @apply flex justify-between;

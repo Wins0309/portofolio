@@ -10,8 +10,8 @@ module.exports = {
       colors: {
         winston: {
           primary: '#66fcf1',
-          secondary: '#1f2833'
-
+          secondary: '#1f2833',
+          tertiary: '#45a29e'
         }
       }
     },

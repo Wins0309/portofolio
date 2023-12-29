@@ -1,5 +1,5 @@
 .c-introduction {
-  background-color: #0b0c10;
+  background-color: black;
 
   .container {
     @apply flex flex-col w-full relative overflow-hidden;
@@ -50,11 +50,9 @@
       @apply relative h-full w-full;
 
       z-index: 10;
-      animation : slideInFromRightAnimation 1.5s ease-in;
     }
 
     .image-wrapper {
-      transform: translateX(20%);
       z-index: 100;
     }
 
