@@ -1,6 +1,8 @@
 .c-work {
   @apply bg-black py-16 lg:py-48 flex flex-col;
 
+  height: calc(100vh - 88px);
+
   .card {
     @apply flex flex-col-reverse;
 
@@ -13,7 +15,7 @@
     @apply flex flex-col flex-grow text-white items-start justify-center;
 
     p {
-      @apply mb-4;
+      @apply mb-4 text-justify;
     }
   }
 

@@ -2,6 +2,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { IconChevronLeft, IconChevronRight } from '@tabler/icons-react'
 import { useCallback, useRef } from 'react'
+import Image from 'next/image'
 
 export default function Work() {
   const sliderRef = useRef(null);
@@ -30,16 +31,14 @@ export default function Work() {
             <div className="card">
               <div className="content-container">
                 <h3 className="mb-4 text-winston-primary">Website Development</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis blandit purus ac dictum ullamcorper.
-                  Vestibulum libero lectus, suscipit et molestie non, ultricies ac arcu. In tellus tortor, placerat eget
-                  mattis id, volutpat id eros.
-                  Aenean vel pharetra erat. Nullam in egestas tortor. Curabitur ante enim, efficitur a volutpat sed, fermentum
-                  eu neque.
+                <p className="text-justify">
+                  In my day-to-day role as a website developer, my activities are multifaceted and dynamic, beginning with the conceptualization and planning of web projects.
+                  I collaborate closely with clients and stakeholders to gather requirements, ensuring a clear understanding of design preferences, functionalities, and overall project goals.
+                  My day involves coding and programming using a variety of languages such as HTML, CSS, JavaScript, and often leveraging frameworks such as Laravel and Vue.
                 </p>
               </div>
               <div className="image-container">
-                <img src={'./website-development.jpg'} alt="Website Development" />
+                <Image width={500} height={50} src={'/website-development.jpg'} alt="Website Development" />
                 <div className="overlay"></div>
               </div>
             </div>
@@ -49,15 +48,13 @@ export default function Work() {
               <div className="content-container">
                 <h3 className="mb-4 text-winston-primary">Responsive Design</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis blandit purus ac dictum ullamcorper.
-                  Vestibulum libero lectus, suscipit et molestie non, ultricies ac arcu. In tellus tortor, placerat eget
-                  mattis id, volutpat id eros.
-                  Aenean vel pharetra erat. Nullam in egestas tortor. Curabitur ante enim, efficitur a volutpat sed, fermentum
-                  eu neque.
+                  I start my day by reviewing design mockups and wireframes, carefully considering how each element will respond to different breakpoints.
+                  With a combination of HTML, CSS, and JavaScript, I implement responsive design principles to create fluid layouts and flexible components.
+                  I conduct testing on various devices to verify the responsiveness and troubleshoot any issues that may arise.
                 </p>
               </div>
               <div className="image-container">
-                <img src={'./responsive.jpg'} alt="Website Development" />
+                <Image width={500} height={50} src={'/responsive.jpg'} alt="Website Development" />
               </div>
             </div>
           </SwiperSlide>
@@ -74,7 +71,7 @@ export default function Work() {
                 </p>
               </div>
               <div className="image-container">
-                <img src={'./seo.jpg'} alt="Website Development" />
+                <Image width={500} height={50} src={'/seo.jpg'} alt="Website Development" />
               </div>
             </div>
           </SwiperSlide>
@@ -91,7 +88,7 @@ export default function Work() {
                 </p>
               </div>
               <div className="image-container">
-                <img src={'./uiux.jpg'} alt="Website Development" />
+                <Image width={500} height={50} src={'/uiux.jpg'} alt="Website Development" />
               </div>
             </div>
           </SwiperSlide>

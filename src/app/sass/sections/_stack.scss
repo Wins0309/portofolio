@@ -14,15 +14,16 @@
     cursor: pointer;
 
     .description {
-      @apply text-winston-secondary mb-6 font-bold;
+      @apply text-white mb-6 text-center;
     }
 
-    h4,
     p {
-      @apply text-start;
+      font-size: 16px;
     }
 
     &:hover {
+      transform: none;
+
       .flip-card-inner {
         transform: rotateY(180deg);
         transition: all 1s ease;
@@ -31,7 +32,12 @@
       .flip-card-back {
         @apply visible;
 
+        z-index: 10;
         transition: all 1s ease;
+      }
+
+      .flip-card-front {
+        z-index: 9;
       }
     }
   }
