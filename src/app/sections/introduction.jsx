@@ -11,7 +11,7 @@ export default function Introduction() {
             {"Hey there! 👋 I'm a Full Stack Web Developer based in Melbourne, Australia with a knack for turning ideas into awesome websites.\n" +
             "With two years of hands-on experience, I specialize in crafting digital magic using WordPress and Laravel Vue."}
           </p>
-          <a href="/resume.pdf" target="_blank" className="btn btn-outline-primary" data-aos="slide-up" data-aos-delay="100" data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-mirror="true">Download My Resume</a>
+          <a href="/resume.pdf" target="_blank" className="btn btn-outline-primary" data-aos="slide-right" data-aos-delay="100" data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-mirror="true">Download My Resume</a>
         </div>
         <div className="image-container">
           <div className="image-wrapper w-full">

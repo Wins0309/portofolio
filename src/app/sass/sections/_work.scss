@@ -1,7 +1,7 @@
 .c-work {
   @apply bg-black py-16 lg:py-48 flex flex-col;
 
-  height: calc(100vh - 88px);
+  min-height: calc(100vh - 88px);
 
   .card {
     @apply flex flex-col-reverse;

@@ -4,10 +4,10 @@ import { Autoplay, Pagination } from 'swiper/modules'
 import Image from 'next/image'
 export default function Clients() {
   return (
-    <div className="c-clients">
+    <div className="c-clients" id="clients">
       <div className="container mx-auto">
         <div className="work-container">
-          <h3 className="text-winston-primary mb-4 text-start lg:mb-16">Check out some of the clients I have worked with</h3>
+          <h3 className="text-winston-primary mb-4 text-center lg:text-start lg:mb-16">Check out some of the clients I have worked with</h3>
           <Swiper
             modules={[Pagination, Autoplay]}
             pagination={{
@@ -33,7 +33,7 @@ export default function Clients() {
                     Their manufacturing complex in Dandenong, Victoria wholesale’s quality products to schools, clubs and corporations across Australia, employing more than 90 staff which continues to grow today.
                     There are now 3 direct descendants working within the company.
                   </p>
-                  <a href="#" className="btn btn-primary">Visit Site</a>
+                  <a href="https://dobsons.com.au" target="_blank" className="btn btn-primary">Visit Site</a>
                 </div>
               </div>
             </SwiperSlide>

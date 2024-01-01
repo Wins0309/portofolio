@@ -12,9 +12,10 @@
     height: 100%;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
     cursor: pointer;
+    margin-bottom: 1rem;
 
     .description {
-      @apply text-white mb-6 text-center;
+      @apply text-white text-center;
     }
 
     p {
@@ -54,6 +55,8 @@
 
   .flip-card-front,
   .flip-card-back {
+    @apply h-full;
+
     position: absolute;
   }
 

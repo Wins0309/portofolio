@@ -25,6 +25,17 @@ export default function SideHeader() {
     dispatch({type: 'TOGGLE_HEADER'})
   }
 
+  const navigateToSection = (section) => {
+    window.scrollTo({
+      top: document.getElementById(section).offsetTop - 88,
+      behavior: "smooth"
+    });
+
+    if (window.innerWidth < 640) {
+      dispatch({type: 'TOGGLE_HEADER'})
+    }
+  }
+
   return (
     <div id={'side-header'} className={headerClass}>
       <div className="close-button">
@@ -35,7 +46,7 @@ export default function SideHeader() {
       <ul>
         {menuItems.map((item, index) => (
           <li key={index} className="menu-item">
-            <Link href={item.slug}>{ item.title }</Link>
+            <button onClick={() => navigateToSection(item.section)}>{ item.title }</button>
           </li>
         ))}
       </ul>

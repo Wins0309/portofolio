@@ -1,16 +1,16 @@
 const initialState = {
   menuItems: [
     {
-      slug: '#about',
-      title: 'About'
+      section: 'stack',
+      title: 'My Journey'
     },
     {
-      slug: '#works',
-      title: 'Works'
+      section: 'clients',
+      title: 'My Clients'
     },
     {
-      slug: '#services',
-      title: 'Services'
+      section: 'work',
+      title: 'My Day'
     }
   ],
   activeHeader: false,

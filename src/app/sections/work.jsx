@@ -18,7 +18,7 @@ export default function Work() {
   }, []);
 
   return (
-    <div className="c-work">
+    <div className="c-work" id="work">
       <div className="container mx-auto">
         <h2 className="text-center text-winston-primary pb-8 md:pb-20">My Day to Day</h2>
         <Swiper
@@ -61,34 +61,28 @@ export default function Work() {
           <SwiperSlide>
             <div className="card">
               <div className="content-container">
-                <h3 className="mb-4 text-winston-primary">SEO Management</h3>
+                <h3 className="mb-4 text-winston-primary">UI / UX Experience</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis blandit purus ac dictum ullamcorper.
-                  Vestibulum libero lectus, suscipit et molestie non, ultricies ac arcu. In tellus tortor, placerat eget
-                  mattis id, volutpat id eros.
-                  Aenean vel pharetra erat. Nullam in egestas tortor. Curabitur ante enim, efficitur a volutpat sed, fermentum
-                  eu neque.
+                  My day-to-day is marked by a keen eye for detail, as I ensure pixel-perfect development and consistently improve my innovative solutions to elevate the visual appeal and usability of websites.
+                  Not to forget, my work also involves providing excellent user experience in terms of navigating through a site.
                 </p>
               </div>
               <div className="image-container">
-                <Image width={500} height={50} src={'/seo.jpg'} alt="Website Development" />
+                <Image width={500} height={50} src={'/uiux.jpg'} alt="Website Development" />
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="card">
               <div className="content-container">
-                <h3 className="mb-4 text-winston-primary">UI / UX Experience</h3>
+                <h3 className="mb-4 text-winston-primary">SEO Handling</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis blandit purus ac dictum ullamcorper.
-                  Vestibulum libero lectus, suscipit et molestie non, ultricies ac arcu. In tellus tortor, placerat eget
-                  mattis id, volutpat id eros.
-                  Aenean vel pharetra erat. Nullam in egestas tortor. Curabitur ante enim, efficitur a volutpat sed, fermentum
-                  eu neque.
+                  {"In my day-to-day work, I play a pivotal role in establishing a seamless bridge for SEO managers to integrate and optimize content on our clients' websites. \n" +
+                  "My responsibilities extend beyond traditional web development as I actively collaborate with SEO managers to implement a structured approach to incorporating SEO elements into the site's architecture."}
                 </p>
               </div>
               <div className="image-container">
-                <Image width={500} height={50} src={'/uiux.jpg'} alt="Website Development" />
+                <Image width={500} height={50} src={'/seo.jpg'} alt="Website Development" />
               </div>
             </div>
           </SwiperSlide>

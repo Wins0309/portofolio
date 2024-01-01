@@ -1,5 +1,9 @@
 .c-clients {
-  @apply my-16;
+  @apply py-16;
+
+  .container {
+    @apply p-0;
+  }
 
   .work-container {
     @apply bg-black py-4 px-8;
