@@ -15,7 +15,7 @@ export default function Introduction() {
         </div>
         <div className="image-container">
           <div className="image-wrapper w-full">
-            <Image width={5000} height={50} data-aos="slide-up" data-aos-delay="100" data-aos-duration="2000" data-aos-easing="ease-in-out" data-aos-mirror="true" src={'/face.png'} alt="Face Image" />
+            <Image width={5000} height={5000} data-aos="slide-up" data-aos-delay="100" data-aos-duration="2000" data-aos-easing="ease-in-out" data-aos-mirror="true" src={'/face.png'} alt="Face Image" />
           </div>
           <div className="background-text">
             <h1>Full Stack Developer</h1>

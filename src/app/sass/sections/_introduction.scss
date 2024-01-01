@@ -18,7 +18,7 @@
     height: 350px;
 
     @screen lg {
-      @apply items-start;
+      @apply items-start h-auto;
     }
 
     @screen lg {
