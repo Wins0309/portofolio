@@ -14,6 +14,9 @@
   .content-container {
     @apply flex flex-col justify-center items-center mb-4 py-4;
 
+    min-height: 350px;
+    height: 350px;
+
     @screen lg {
       @apply items-start;
     }
