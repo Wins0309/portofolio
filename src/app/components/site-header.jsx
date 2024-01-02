@@ -25,11 +25,11 @@ export default function SiteHeader() {
   return (
     <header id="site-header">
       <div className="container mx-auto flex items-center">
-        <div className="header-menu-items flex gap-4">
+        <div className="header-menu-items flex gap-8">
           <button onClick={() => navigateToSection('introduction')} className="logo-button">
             <Image width={30} height={30} src={'/logo.png'}  alt="Logo"/>
           </button>
-          <ul className="hidden lg:flex items-center gap-4">
+          <ul className="hidden lg:flex items-center gap-8">
             {menuItems.map((item, index) => (
               <li key={index} className="menu-item text-winston-primary font-bold">
                 <button onClick={() => navigateToSection(item.section)}>{ item.title }</button>
