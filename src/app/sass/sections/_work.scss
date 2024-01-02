@@ -49,6 +49,14 @@
   }
 
   .swiper {
+    &-slide {
+      @apply h-auto;
+
+      .card {
+        @apply h-full;
+      }
+    }
+
     .prev-arrow,
     .next-arrow {
       @apply border border-white rounded-full p-4;

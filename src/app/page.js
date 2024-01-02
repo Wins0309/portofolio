@@ -1,5 +1,6 @@
 import SideHeader from "./components/side-header"
 import SiteHeader from "./components/site-header"
+import SiteFooter from "./components/site-footer"
 import Introduction from "./sections/introduction"
 import Clients from "./sections/clients"
 import Stack from "./sections/stack"
@@ -18,6 +19,7 @@ export default function Page() {
         <Stack />
         <Clients />
         <Work />
+        <SiteFooter />
       </div>
     </div>)
 }

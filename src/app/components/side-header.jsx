@@ -1,6 +1,5 @@
 'use client'
 import { appSelector } from '../../store/stores'
-import Link from 'next/link'
 import { IconX } from '@tabler/icons-react'
 import { useEffect, useState } from 'react'
 import { useDispatch } from "react-redux"

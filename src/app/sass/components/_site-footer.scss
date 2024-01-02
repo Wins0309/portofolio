@@ -1,0 +1,41 @@
+.site-footer {
+  @apply relative bg-winston-secondary py-8 lg:py-16;
+
+  .btn {
+    border-radius: 32px;
+  }
+
+  .buttons-container {
+    @apply flex justify-center;
+
+    .btn {
+      @apply p-4;
+
+      &:hover,
+      &:active,
+      &:focus {
+        @apply text-white;
+
+        svg {
+          path {
+            @apply fill-white;
+          }
+        }
+      }
+    }
+
+    svg {
+      width: 24px;
+      height: auto;
+      aspect-ratio: 1 / 1;
+
+      path {
+        @apply fill-winston-primary;
+      }
+    }
+
+    @screen lg {
+      @apply justify-start;
+    }
+  }
+}

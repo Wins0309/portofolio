@@ -147,7 +147,7 @@ export default function Stack() {
                     <h4 className="text-winston-primary mb-4 font-bold">Database</h4>
                     <p className="description">
                       My experience in databases has been notably centered around MySQL
-                      Over the course of my professional journey, I have proficiently navigated MySQL to manage databases, demonstrating a keen understanding of its schema design, querying capabilities, and optimization features.
+                      over the course of my professional journey, I have proficiently navigated MySQL to manage databases, demonstrating a keen understanding of its schema design, querying capabilities, and optimization features.
                     </p>
                   </div>
                 </div>

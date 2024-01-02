@@ -6,7 +6,7 @@ const initialState = {
     },
     {
       section: 'clients',
-      title: 'My Clients'
+      title: 'My Work'
     },
     {
       section: 'work',
