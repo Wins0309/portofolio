@@ -12,7 +12,7 @@ export default function RootLayout({children}: {
         <Providers>
             <html lang="en">
                 <head>
-                    <title>{"Winston's Portofolio"}</title>
+                    <title>{"Winston's Portfolio"}</title>
                 </head>
                 <body className={inter.className}>{children}</body>
             </html>

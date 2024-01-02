@@ -23,4 +23,16 @@ header#site-header {
       }
     }
   }
+
+  .logo-button {
+    img {
+      width: 24px;
+      height: 24px;
+
+      @screen lg {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
 }

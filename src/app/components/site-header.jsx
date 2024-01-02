@@ -26,7 +26,7 @@ export default function SiteHeader() {
     <header id="site-header">
       <div className="container mx-auto flex items-center">
         <div className="header-menu-items flex gap-4">
-          <button onClick={() => navigateToSection('introduction')}>
+          <button onClick={() => navigateToSection('introduction')} className="logo-button">
             <Image width={30} height={30} src={'/logo.png'}  alt="Logo"/>
           </button>
           <ul className="hidden lg:flex items-center gap-4">
