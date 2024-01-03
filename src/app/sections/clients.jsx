@@ -7,14 +7,14 @@ export default function Clients() {
     <div className="c-clients" id="clients">
       <div className="container mx-auto">
         <div className="work-container">
-          <h3 className="text-winston-primary mb-4 text-center lg:text-start lg:mb-16">Check out some of the clients I have worked with</h3>
+          <h2 className="text-winston-primary mb-4 text-center lg:mb-16 font-bold w-full">Check out some of the clients I have worked with</h2>
           <Swiper
             modules={[Pagination, Autoplay]}
             pagination={{
               clickable: true
             }}
             autoplay={{
-              delay: 2500,
+              delay: 5000,
               pauseOnMouseEnter: true
             }}
             spaceBetween={50}
@@ -27,11 +27,10 @@ export default function Clients() {
                   <Image width={50} height={50} src={'./dobsons.svg'} alt="Dobsons" />
                 </div>
                 <div className="content-container">
-                  <h4 className="text-white mb-4">Dobsons School Uniforms</h4>
+                  <h4 className="text-white mb-4 font-semibold">Dobsons School Uniforms</h4>
                   <p className="mb-4">
-                    Currently Dobsons operate 34+ on campus school shops, 4 major retail outlets which compliments are our work with Australia’s brightest schools via our wholesale service.
-                    Their manufacturing complex in Dandenong, Victoria wholesale’s quality products to schools, clubs and corporations across Australia, employing more than 90 staff which continues to grow today.
-                    There are now 3 direct descendants working within the company.
+                    {"I was involved in Dobson's webstore rebuild, focusing on optimizing product catalogue, enhancing the look and feel of their new site and providing E-Commerce services within the site." +
+                      "With this new site, customers can conveniently get all their children's uniform in one go!"}
                   </p>
                   <a href="https://dobsons.com.au" target="_blank" className="btn btn-primary">Visit Site</a>
                 </div>
@@ -43,10 +42,10 @@ export default function Clients() {
                   <Image width={50} height={50} src={'./haven.svg'} alt="Haven" />
                 </div>
                 <div className="content-container">
-                  <h4 className="text-white">Haven Home Safe</h4>
+                  <h4 className="text-white font-semibold">Haven Home Safe</h4>
                   <p className="mb-4">
-                    For 45 years, They’ve worked with government, public and private partners to mobilise funding and collaborate for greater housing and homelessness solutions for a better future.
-                    With a commitment to placing clients at the core of their decision making, providing support programs that connect with people’s unique needs and strengthen their knowledge, abilities and capacity to thrive.
+                    I was tasked to work on their new website, creating a media to help reach more people who are in need of shelter.
+                    With the help of the site, they can explain more details on the services they provide and reach out to more people who needs help.
                   </p>
                   <a href="https://havenhomesafe.org.au" target="_blank" className="btn btn-primary">Visit Site</a>
                 </div>
@@ -58,10 +57,11 @@ export default function Clients() {
                   <Image width={50} height={50} src={'./bacash.svg'} alt="Bacash" />
                 </div>
                 <div className="content-container">
-                  <h4 className="text-white">Bacash Restaurant</h4>
+                  <h4 className="text-white font-semibold">Bacash Restaurant</h4>
                   <p className="mb-4">
-                    Overlooking the superb greenery of the Royal Botanic Gardens – Bacash is a space for any reason and all seasons.
-                    Upon relocating south of the river, with a diversified menu and fresh new look, they reopened their doors as Bacash.
+                    I was assigned to create a website that allow users to book a seating in their restaurant and shop for wine.
+                    This is one of the most aesthetically pleasing site that I got to work on. The site displays a beautiful selection of wines in the shop
+                    and stunning menus.
                   </p>
                   <a href="https://bacash.com.au/" target="_blank" className="btn btn-primary">Visit Site</a>
                 </div>
@@ -70,13 +70,13 @@ export default function Clients() {
             <SwiperSlide>
               <div className="card">
                 <div className="image-container">
-                  <Image width={50} height={50} src={'./vch.svg'} alt="Bacash" />
+                  <Image width={50} height={50} src={'./technicalities.svg'} alt="Bacash" />
                 </div>
                 <div className="content-container">
-                  <h4 className="text-white">Victoria Crane Hire</h4>
+                  <h4 className="text-white font-semibold">Technicalities</h4>
                   <p className="mb-4">
-                    VCH is a Victoria’s largest comprehensive crane solution provider catering to heavy lifting, haulage and other industrial logistic needs.
-                    Their fleet of 50 crane trucks are strategically located in the South East and Western regions of Melbourne, across three sites, and offer capabilities that are unlike any in Australia.
+                    I was involved in migrating the site into a newer version of the stack, as well as refurbishing the look of the new site.
+                    This website displays and provide valuable information of the services and solutions that Technicalities has to offer.
                   </p>
                   <a href="https://www.vch.com.au/" target="_blank" className="btn btn-primary">Visit Site</a>
                 </div>
@@ -88,10 +88,10 @@ export default function Clients() {
                   <Image width={50} height={50} src={'./fronditha.svg'} alt="Fronditha" />
                 </div>
                 <div className="content-container">
-                  <h4 className="text-white">Fronditha Aged Care</h4>
+                  <h4 className="text-white font-semibold">Fronditha Aged Care</h4>
                   <p className="mb-4">
-                    A leading not-for-profit organisation with a mission to provide older Victorians,
-                    their families and carers with a full range of quality community-based services and residential homes and apartments.
+                    This is my first project coming into the digital industry, I was asked to help built this site to help the organization reach people who are in need of age care services.
+                    This website also acts as a media to find people who are willing to volunteer and work with them for a better age care service in Australia.
                   </p>
                   <a href="https://frondithacare.org.au/" target="_blank" className="btn btn-primary">Visit Site</a>
                 </div>

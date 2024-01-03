@@ -12,10 +12,14 @@
   }
 
   .content-container {
-    @apply flex flex-col flex-grow text-white items-start justify-center;
+    @apply flex flex-col flex-grow text-white items-start justify-start mt-4 lg:mt-0;
 
     p {
-      @apply mb-4 text-justify;
+      @apply mb-4;
+    }
+
+    @screen lg {
+      @apply justify-center;
     }
   }
 

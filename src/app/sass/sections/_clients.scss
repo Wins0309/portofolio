@@ -1,5 +1,5 @@
 .c-clients {
-  @apply py-16;
+  @apply px-8 py-8 md:px-16 md:py-16;
 
   .container {
     @apply p-0;
@@ -20,7 +20,7 @@
   }
 
   .card {
-    @apply w-full h-full flex flex-col items-center mb-4;
+    @apply w-full h-full flex flex-col items-center mb-8;
 
     .content-container {
       @apply flex-grow flex flex-col text-center;

@@ -5,7 +5,7 @@ export default function SiteFooter() {
       <div className="container mx-auto z-20">
         <div className="lg:flex w-full items-center justify-center lg:justify-between">
           <div className="text-white mb-8 text-center lg:mb-0 lg:text-start">
-            <h2>For Any Enquiries</h2>
+            <h3>For Any Enquiries</h3>
           </div>
           <div className="buttons-container">
             <a href="https://www.linkedin.com/in/winstonlie/" target="_blank" className="btn btn-outline-primary rounded-full mr-4">

@@ -3,7 +3,7 @@ export default function Stack() {
   return (
     <div className="c-stack" id="stack">
       <div className="container mx-auto">
-        <h2 className="text-center text-winston-primary mb-16">My Journey In the Digital Industry</h2>
+        <h2 className="text-center text-winston-primary mb-16 font-bold">My Journey In the Digital Industry</h2>
         <ol className="stack">
           <li className="border-l-2 border-winston-primary md:col-start-2">
             <div className="md:flex flex-start">
@@ -146,8 +146,7 @@ export default function Stack() {
                   <div className="flex flex-col p-6 h-full justify-center items-center rounded-lg shadow-lg bg-winston-secondary max-w-md ml-6 md:ml-0 md:mr-6">
                     <h4 className="text-winston-primary mb-4 font-bold">Database</h4>
                     <p className="description">
-                      My experience in databases has been notably centered around MySQL
-                      over the course of my professional journey, I have proficiently navigated MySQL to manage databases, demonstrating a keen understanding of its schema design, querying capabilities, and optimization features.
+                      Over the course of my professional journey, I have proficiently navigated MySQL to manage databases, demonstrating a keen understanding of its schema design, querying capabilities, and optimization features.
                     </p>
                   </div>
                 </div>
