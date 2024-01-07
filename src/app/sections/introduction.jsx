@@ -15,7 +15,7 @@ export default function Introduction() {
         </div>
         <div className="image-container">
           <div className="image-wrapper w-full">
-            <Image width={5000} height={5000} src={'/face.png'} alt="Face Image" />
+            <Image loading="eager" width={5000} height={5000} src={'/face.png'} alt="Face Image" />
           </div>
           <div className="background-text">
             <h1>Full Stack Developer</h1>
