@@ -37,7 +37,7 @@ export default function Work() {
                 </p>
               </div>
               <div className="image-container">
-                <Image width={500} height={500} src={'/website-development.jpg'} alt="Website Development" />
+                <Image loading="eager" width={500} height={500} src={'/website-development.jpg'} alt="Website Development" />
                 <div className="overlay"></div>
               </div>
             </div>
@@ -53,7 +53,7 @@ export default function Work() {
                 </p>
               </div>
               <div className="image-container">
-                <Image width={500} height={500} src={'/responsive.jpg'} alt="Website Development" />
+                <Image loading="eager" width={500} height={500} src={'/responsive.jpg'} alt="Website Development" />
               </div>
             </div>
           </SwiperSlide>
@@ -67,7 +67,7 @@ export default function Work() {
                 </p>
               </div>
               <div className="image-container">
-                <Image width={500} height={500} src={'/uiux.jpg'} alt="Website Development" />
+                <Image loading="eager" width={500} height={500} src={'/uiux.jpg'} alt="Website Development" />
               </div>
             </div>
           </SwiperSlide>
@@ -81,7 +81,7 @@ export default function Work() {
                 </p>
               </div>
               <div className="image-container">
-                <Image width={500} height={500} src={'/seo.jpg'} alt="Website Development" />
+                <Image loading="eager" width={500} height={500} src={'/seo.jpg'} alt="Website Development" />
               </div>
             </div>
           </SwiperSlide>

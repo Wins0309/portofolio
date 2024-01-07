@@ -7,7 +7,7 @@ export default function Clients() {
     <div className="c-clients" id="clients">
       <div className="container mx-auto">
         <div className="work-container">
-          <h2 className="text-winston-primary mb-4 text-center lg:mb-16 font-bold w-full">Check out some of the clients I have worked with</h2>
+          <h2 className="text-winston-primary mb-4 text-center lg:mb-16 font-bold w-full">Check out some of the work I have done</h2>
           <Swiper
             modules={[Pagination, Autoplay]}
             pagination={{
@@ -24,7 +24,7 @@ export default function Clients() {
             <SwiperSlide>
               <div className="card">
                 <div className="image-container">
-                  <Image width={50} height={50} src={'./dobsons.svg'} alt="Dobsons" />
+                  <Image loading="eager" width={50} height={50} src={'./dobsons.svg'} alt="Dobsons" />
                 </div>
                 <div className="content-container">
                   <h4 className="text-white mb-4 font-semibold">Dobsons School Uniforms</h4>
@@ -39,7 +39,7 @@ export default function Clients() {
             <SwiperSlide>
               <div className="card">
                 <div className="image-container">
-                  <Image width={50} height={50} src={'./haven.svg'} alt="Haven" />
+                  <Image loading="eager" width={50} height={50} src={'./haven.svg'} alt="Haven" />
                 </div>
                 <div className="content-container">
                   <h4 className="text-white font-semibold">Haven Home Safe</h4>
@@ -54,7 +54,7 @@ export default function Clients() {
             <SwiperSlide>
               <div className="card">
                 <div className="image-container">
-                  <Image width={50} height={50} src={'./bacash.svg'} alt="Bacash" />
+                  <Image loading="eager" width={50} height={50} src={'./bacash.svg'} alt="Bacash" />
                 </div>
                 <div className="content-container">
                   <h4 className="text-white font-semibold">Bacash Restaurant</h4>
@@ -70,7 +70,7 @@ export default function Clients() {
             <SwiperSlide>
               <div className="card">
                 <div className="image-container">
-                  <Image width={50} height={50} src={'./technicalities.svg'} alt="Bacash" />
+                  <Image loading="eager" width={50} height={50} src={'./technicalities.svg'} alt="Bacash" />
                 </div>
                 <div className="content-container">
                   <h4 className="text-white font-semibold">Technicalities</h4>
@@ -85,7 +85,7 @@ export default function Clients() {
             <SwiperSlide>
               <div className="card">
                 <div className="image-container">
-                  <Image width={50} height={50} src={'./fronditha.svg'} alt="Fronditha" />
+                  <Image loading="eager" width={50} height={50} src={'./fronditha.svg'} alt="Fronditha" />
                 </div>
                 <div className="content-container">
                   <h4 className="text-white font-semibold">Fronditha Aged Care</h4>
